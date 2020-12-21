@@ -23,6 +23,6 @@ def using_delete (array, string)
       array[ele].delete
     end
   end
-  array
+array
 
 end
