@@ -20,7 +20,7 @@ end
 def using_delete (array, string)
   array.length.times do |ele|
     if array[ele] == string
-      array[ele].delete
+      array.delete(array[ele])
     end
   end
 
