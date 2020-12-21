@@ -16,3 +16,11 @@ end
 def using_flatten (array)
   array.flatten
 end
+
+def using_delete (array, string)
+  array.length.times do |ele|
+    if array[ele] == string
+      array[ele].delete
+    end
+  array
+end
