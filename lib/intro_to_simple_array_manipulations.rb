@@ -22,5 +22,7 @@ def using_delete (array, string)
     if array[ele] == string
       array[ele].delete
     end
+  end
   array
+
 end
